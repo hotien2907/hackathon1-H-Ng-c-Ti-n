@@ -1,0 +1,82 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header_flex {
+  display: flex;
+  width: 70%;
+  background-color: rgb(204, 203, 204);
+}
+
+.header_center {
+  width: 80%;
+  text-align: center;
+  margin-top: 90px;
+}
+.header_right {
+  width: 30%;
+  background-color: rgb(56, 49, 49);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+.header_left {
+  background-color: white;
+  margin: 80px 20px;
+  border-radius: 50px;
+  text-align: center;
+  padding: 0px 20px;
+}
+.header_left p a {
+  text-decoration: none;
+  color: gray;
+  line-height: 35px;
+  font-size: 18px;
+}
+.header_left p a :hover {
+  color: red;
+}
+
+.header_right img {
+  border-radius: 50%;
+  border: 3px solid goldenrod;
+}
+.header_right p {
+  line-height: 1.8;
+}
+.header_right span a {
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+}
+.header_right span a :hover {
+  color: red;
+}
+.header_right button {
+  padding: 15px 20px;
+  border: 1px solid goldenrod;
+  color: white;
+  background-color: rgb(56, 49, 49);
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.header_right p a {
+  color: white;
+}
+.header_center h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+.header_center p {
+  font-size: 20px;
+  color: rgb(71, 70, 70);
+}
+.header_center button {
+  margin-top: 30px;
+  background-color: brown;
+  padding: 15px 25px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
